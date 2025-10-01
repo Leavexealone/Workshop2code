@@ -1,8 +1,8 @@
-let cowgif;
+let catgif;
 
 function preload()
 {
-    cowgif = loadImage('assets/cow.gif');
+    catgif = loadImage('bruh-meme.gif');
 }
 
 function setup() 
@@ -13,5 +13,5 @@ function setup()
 function draw()
 {
     background(220, 200, 200);
-    image(cowgif, 0, 0);
+    image(catgif, 0, 0);
 }
